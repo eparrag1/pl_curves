@@ -4,6 +4,7 @@ This software is automatically tested by Travis-CI after each build. Current bui
 Code coverage: 
 [![codecov](https://codecov.io/gh/eparrag1/pl_curves/branch/master/graph/badge.svg)](https://codecov.io/gh/eparrag1/pl_curves)
 
+
 # Introduction
 
 This program calculates Pareto–Lorenz (PL) curves for calculating the relative abundance of different bacteria in a community. It also calculates a Gini coefficient to show how evenly distributed the different bacteria are. There are tests written for most functions. Your task is to:
