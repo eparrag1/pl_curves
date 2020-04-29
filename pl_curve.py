@@ -63,7 +63,8 @@ def calculate_gini(data):
         return math.nan
 
     # Mean absolute difference
-    mad = np.abs(np.subtract.outer(data.array, data.array)).mean()
+    data = np.array(data)
+    mad = np.abs(np.subtract.outer(data, data)).mean()
     # Relative mean absolute difference
     rmad = mad / np.mean(data)
     # Gini coefficient
